@@ -1,0 +1,17 @@
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %p - %m%n"
+
+myProp:
+  excelFile:
+    "/Users/user/Desktop/user/other/testExcel.xlsx"
+  oracle:
+    userName:
+      "aaa"
+    password:
+      "aaa"
+  sqlFile:
+    "UPDATE USER
+       SET SEX = '2'
+       WHERE
+          USER_ID = 'aaasd'"
